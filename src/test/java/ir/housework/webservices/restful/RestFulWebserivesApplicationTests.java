@@ -1,4 +1,4 @@
-package ir.housework.rest.webserives.restfulwebserives;
+package ir.housework.webservices.restful;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

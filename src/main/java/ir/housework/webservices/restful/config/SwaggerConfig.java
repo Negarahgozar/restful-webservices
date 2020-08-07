@@ -1,4 +1,4 @@
-package ir.housework.rest.webserives.restfulwebserives.config;
+package ir.housework.webservices.restful.config;
 
 
 import org.springframework.context.annotation.Bean;

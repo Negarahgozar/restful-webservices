@@ -1,4 +1,4 @@
-package ir.housework.rest.webserives.restfulwebserives.models;
+package ir.housework.webservices.restful.models;
 
 import javax.validation.constraints.Past;
 import javax.validation.constraints.Size;

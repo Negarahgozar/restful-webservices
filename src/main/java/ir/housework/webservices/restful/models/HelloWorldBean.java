@@ -1,4 +1,4 @@
-package ir.housework.rest.webserives.restfulwebserives.models;
+package ir.housework.webservices.restful.models;
 
 public class HelloWorldBean {
 

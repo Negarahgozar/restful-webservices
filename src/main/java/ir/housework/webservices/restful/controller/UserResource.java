@@ -1,22 +1,18 @@
-package ir.housework.rest.webserives.restfulwebserives.controller;
+package ir.housework.webservices.restful.controller;
 
-import ir.housework.rest.webserives.restfulwebserives.models.User;
-import ir.housework.rest.webserives.restfulwebserives.service.UserDaoService;
-import ir.housework.rest.webserives.restfulwebserives.exception.UserNotFoundException;
+import ir.housework.webservices.restful.models.User;
+import ir.housework.webservices.restful.service.UserDaoService;
+import ir.housework.webservices.restful.exception.UserNotFoundException;
 import org.springframework.hateoas.EntityModel;
 import org.springframework.hateoas.server.mvc.WebMvcLinkBuilder;
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.*;
 
-import org.springframework.http.HttpHeaders;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 import  org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 import javax.validation.Valid;
 import java.net.URI;
-import java.net.URISyntaxException;
 import java.util.List;
 import java.util.Optional;
 

@@ -1,11 +1,11 @@
-package ir.housework.rest.webserives.restfulwebserives.controller;
+package ir.housework.webservices.restful.controller;
 
-import ir.housework.rest.webserives.restfulwebserives.exception.PostNotFoundException;
-import ir.housework.rest.webserives.restfulwebserives.exception.UserNotFoundException;
-import ir.housework.rest.webserives.restfulwebserives.models.Post;
-import ir.housework.rest.webserives.restfulwebserives.models.User;
-import ir.housework.rest.webserives.restfulwebserives.service.PostDaoService;
-import ir.housework.rest.webserives.restfulwebserives.service.UserDaoService;
+import ir.housework.webservices.restful.exception.PostNotFoundException;
+import ir.housework.webservices.restful.exception.UserNotFoundException;
+import ir.housework.webservices.restful.models.Post;
+import ir.housework.webservices.restful.models.User;
+import ir.housework.webservices.restful.service.PostDaoService;
+import ir.housework.webservices.restful.service.UserDaoService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

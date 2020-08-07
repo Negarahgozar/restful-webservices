@@ -1,6 +1,6 @@
-package ir.housework.rest.webserives.restfulwebserives.controller;
+package ir.housework.webservices.restful.controller;
 
-import ir.housework.rest.webserives.restfulwebserives.models.HelloWorldBean;
+import ir.housework.webservices.restful.models.HelloWorldBean;
 import org.springframework.context.MessageSource;
 import org.springframework.context.i18n.LocaleContextHolder;
 import org.springframework.web.bind.annotation.*;

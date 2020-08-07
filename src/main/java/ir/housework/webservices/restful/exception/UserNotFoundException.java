@@ -1,4 +1,4 @@
-package ir.housework.rest.webserives.restfulwebserives.exception;
+package ir.housework.webservices.restful.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

@@ -1,4 +1,4 @@
-package ir.housework.rest.webserives.restfulwebserives.exception;
+package ir.housework.webservices.restful.exception;
 
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
 

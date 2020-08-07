@@ -1,7 +1,7 @@
-package ir.housework.rest.webserives.restfulwebserives.service;
+package ir.housework.webservices.restful.service;
 
-import ir.housework.rest.webserives.restfulwebserives.models.Post;
-import ir.housework.rest.webserives.restfulwebserives.models.User;
+import ir.housework.webservices.restful.models.Post;
+import ir.housework.webservices.restful.models.User;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
